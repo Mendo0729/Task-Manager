@@ -1,0 +1,235 @@
+{"timestamp": "2025-07-16 22:59:22", "level": "ERROR", "module": "app", "function": "log_exception", "line": 875, "message": "Exception on / [GET]", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:02:14", "level": "WARNING", "module": "auth_services", "function": "validate_user", "line": 41, "message": "Intento de login fallido para usuario: demo", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:04:04", "level": "INFO", "module": "auth_services", "function": "register_user", "line": 24, "message": "Usuario registrado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:04:13", "level": "WARNING", "module": "auth_services", "function": "validate_user", "line": 41, "message": "Intento de login fallido para usuario: demo", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:05:51", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:05:51", "level": "ERROR", "module": "app", "function": "log_exception", "line": 875, "message": "Exception on / [POST]", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:07:01", "level": "WARNING", "module": "auth_services", "function": "validate_user", "line": 41, "message": "Intento de login fallido para usuario: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:07:29", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:09:54", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:10:05", "level": "ERROR", "module": "app", "function": "log_exception", "line": 875, "message": "Exception on /tasks/create [GET]", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:11:45", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:26:01", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:26:02", "level": "ERROR", "module": "api", "function": "get_tasks", "line": 54, "message": "Error al obtener tareas: 'User' object has no attribute 'id'", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:30:03", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:30:03", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:30:03", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:30:03", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:30:03", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:30:56", "level": "ERROR", "module": "task_service", "function": "create_task", "line": 118, "message": "Error al crear la tarea: Foreign key associated with column 'Tasks.category_id' could not find table 'Categories' with which to generate a foreign key to target column 'category_id'", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:31:01", "level": "ERROR", "module": "task_service", "function": "create_task", "line": 118, "message": "Error al crear la tarea: Foreign key associated with column 'Tasks.category_id' could not find table 'Categories' with which to generate a foreign key to target column 'category_id'", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:32:40", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:32:40", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:32:41", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:32:41", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:32:41", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:33:12", "level": "ERROR", "module": "task_service", "function": "create_task", "line": 118, "message": "Error al crear la tarea: Foreign key associated with column 'Tasks.category_id' could not find table 'Categories' with which to generate a foreign key to target column 'category_id'", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:37:16", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:37:16", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:37:17", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:37:17", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:37:17", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:37:51", "level": "ERROR", "module": "task_service", "function": "create_task", "line": 118, "message": "Error al crear la tarea: Foreign key associated with column 'Tasks.category_id' could not find table 'Categories' with which to generate a foreign key to target column 'category_id'", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:39:38", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:39:38", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:39:39", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:39:39", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:39:39", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:40:21", "level": "ERROR", "module": "task_service", "function": "create_task", "line": 118, "message": "Error al crear la tarea: Foreign key associated with column 'Tasks.category_id' could not find table 'Categories' with which to generate a foreign key to target column 'category_id'", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:41:02", "level": "ERROR", "module": "task_service", "function": "create_task", "line": 118, "message": "Error al crear la tarea: Foreign key associated with column 'Tasks.category_id' could not find table 'Categories' with which to generate a foreign key to target column 'category_id'", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:47:20", "level": "WARNING", "module": "auth_services", "function": "validate_user", "line": 41, "message": "Intento de login fallido para usuario: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:47:32", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:47:32", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:47:32", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:47:32", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:47:32", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 0 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:48:18", "level": "INFO", "module": "task_service", "function": "create_task", "line": 113, "message": "Tarea creada exitosamente: Task Manager para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:48:25", "level": "INFO", "module": "task_service", "function": "toggle_task_completion", "line": 186, "message": "Tarea marcada como completada: Task Manager", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-16 23:49:38", "level": "INFO", "module": "task_service", "function": "toggle_task_completion", "line": 186, "message": "Tarea marcada como pendiente: Task Manager", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:09:39", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:09:39", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 1 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:09:40", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:09:40", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 1 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:09:40", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 1 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:13:16", "level": "INFO", "module": "task_service", "function": "create_task", "line": 113, "message": "Tarea creada exitosamente: Parcial Economia para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:13:27", "level": "INFO", "module": "task_service", "function": "toggle_task_completion", "line": 186, "message": "Tarea marcada como completada: Task Manager", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:16:30", "level": "INFO", "module": "task_service", "function": "delete_task", "line": 165, "message": "Tarea eliminada exitosamente: Parcial Economia", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:18:42", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:18:42", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 1 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:18:42", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:18:42", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 1 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:18:42", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 1 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:19:17", "level": "INFO", "module": "task_service", "function": "create_task", "line": 113, "message": "Tarea creada exitosamente: Parcial de Economia para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:37:27", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:37:27", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 2 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:37:28", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:37:28", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 2 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:37:28", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 2 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:38:01", "level": "INFO", "module": "task_service", "function": "create_task", "line": 113, "message": "Tarea creada exitosamente: Nueva tarea para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:38:14", "level": "INFO", "module": "task_service", "function": "toggle_task_completion", "line": 186, "message": "Tarea marcada como completada: Nueva tarea", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:39:44", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:39:44", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 3 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:39:45", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:39:45", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 3 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:39:45", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 3 tareas para usuario 1", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:42:03", "level": "WARNING", "module": "auth_services", "function": "validate_user", "line": 41, "message": "Intento de login fallido para usuario: '' OR '1'='1';", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:42:48", "level": "WARNING", "module": "auth_services", "function": "validate_user", "line": 41, "message": "Intento de login fallido para usuario: 'a' OR '1'='1';", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:49:17", "level": "INFO", "module": "auth_services", "function": "register_user", "line": 24, "message": "Usuario registrado exitosamente: Aysah07", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:49:28", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Aysah07", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:49:28", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 2", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:49:29", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 2", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:49:29", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 2", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 00:49:29", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 0 tareas para usuario 2", "ip": "192.168.0.5"}
+{"timestamp": "2025-07-17 14:07:30", "level": "ERROR", "module": "auth_services", "function": "validate_user", "line": 47, "message": "Error al validar el usuario Aysah07: (pymysql.err.OperationalError) (2003, \"Can't connect to MySQL server on 'db' ([Errno 11001] getaddrinfo failed)\")\n(Background on this error at: https://sqlalche.me/e/20/e3q8)", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:12:18", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Aysah07", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:12:18", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 2", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:12:19", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 2", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:12:19", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 2", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:12:19", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 0 tareas para usuario 2", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:12:35", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:12:35", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 3 tareas para usuario 1", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:12:36", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 1", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:12:36", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 3 tareas para usuario 1", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:12:36", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 3 tareas para usuario 1", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:13:53", "level": "INFO", "module": "task_service", "function": "create_task", "line": 113, "message": "Tarea creada exitosamente: Hacer galletas para usuario 1", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:14:01", "level": "INFO", "module": "task_service", "function": "toggle_task_completion", "line": 186, "message": "Tarea marcada como completada: Hacer galletas", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:14:12", "level": "INFO", "module": "task_service", "function": "toggle_task_completion", "line": 186, "message": "Tarea marcada como pendiente: Hacer galletas", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:14:42", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 43, "message": "Usuario autenticado exitosamente: Aysah07", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:14:42", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 2", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:14:43", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 2", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:14:43", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 0 tareas para usuario 2", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 14:14:43", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 0 tareas para usuario 2", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 15:22:53", "level": "ERROR", "module": "app", "function": "log_exception", "line": 875, "message": "Exception on /forgot-password [POST]", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 16:24:49", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 45, "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 16:24:49", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 4 tareas para usuario 1", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 16:24:50", "level": "INFO", "module": "api", "function": "get_tasks", "line": 30, "message": "Obteniendo tareas para usuario: 1", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 16:24:50", "level": "INFO", "module": "task_service", "function": "get_all_tasks", "line": 18, "message": "Obtenidas 4 tareas para usuario 1", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-17 16:24:50", "level": "INFO", "module": "api", "function": "get_tasks", "line": 48, "message": "Retornando 4 tareas para usuario 1", "ip": "192.168.50.211"}
+{"timestamp": "2025-07-26 14:36:55", "level": "ERROR", "module": "auth_services", "function": "validate_user", "line": 117, "message": "Error al validar el usuario Mendo1029: (pymysql.err.OperationalError) (2003, \"Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)\")\n(Background on this error at: https://sqlalche.me/e/20/e3q8)", "ip": "192.168.0.6"}
+{"timestamp": "2025-07-26 14:38:17", "level": "WARNING", "module": "auth_services", "function": "validate_user", "line": 94, "message": "Intento de login fallido para usuario: Mendo1029", "ip": "192.168.0.6"}
+{"timestamp": "2025-07-26 14:39:59", "level": "WARNING", "module": "auth_services", "function": "validate_user", "line": 94, "message": "Intento de login fallido para usuario: Mendo1029", "ip": "192.168.0.6"}
+{"timestamp": "2025-07-26 14:40:09", "level": "WARNING", "module": "auth_services", "function": "validate_user", "line": 94, "message": "Intento de login fallido para usuario: Mendo1029", "ip": "192.168.0.6"}
+{"timestamp": "2025-07-26 14:41:15", "level": "INFO", "module": "auth_services", "function": "register_user", "line": 55, "message": "Usuario registrado exitosamente: Abdiel07 (usuario@ejemplo.com)", "ip": "192.168.0.6"}
+{"timestamp": "2025-07-26 14:42:45", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 105, "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "192.168.0.6"}
+{"timestamp": "2025-07-26 14:44:59", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 105, "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "192.168.0.6"}
+{"timestamp": "2025-07-26 14:49:15", "level": "INFO", "module": "auth_services", "function": "validate_user", "line": 105, "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "192.168.0.6"}
+{"timestamp": "2025-07-26 17:23:56,633", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:23:56,635", "level": "ERROR", "module": "app", "message": "Exception on /api/auth/login [POST]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:33:42,137", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:33:42,138", "level": "ERROR", "module": "auth_services", "message": "Error inesperado al obtener las tarea: 'User' object has no attribute 'role'", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:34:07,372", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:34:35,550", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:35:32,424", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:40:31,708", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:41:38,582", "level": "ERROR", "module": "app", "message": "Exception on /api/tasks/ [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:45:23,292", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:45:29,235", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:47:30,093", "level": "ERROR", "module": "app", "message": "Exception on /api/tasks/ [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:49:16,466", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:49:30,374", "level": "INFO", "module": "task_service", "message": "Obtenidas 0 tareas para usuario <flask_login.mixins.AnonymousUserMixin object at 0x00000244D8F9ABA0>", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:49:30,375", "level": "ERROR", "module": "app", "message": "Exception on /api/tasks/ [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:55:22,400", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:55:36,091", "level": "INFO", "module": "task_service", "message": "Obtenidas 0 tareas para usuario <flask_login.mixins.AnonymousUserMixin object at 0x000001F236D2ABA0>", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:55:36,092", "level": "ERROR", "module": "app", "message": "Exception on /api/tasks/ [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:58:14,186", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 17:58:26,295", "level": "INFO", "module": "task_service", "message": "Obtenidas 0 tareas para usuario <flask_login.mixins.AnonymousUserMixin object at 0x0000020CCBD1ABA0>", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:03:20,663", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:03:32,620", "level": "ERROR", "module": "task_service", "message": "Error inesperado al obtener las tarea: 'AnonymousUserMixin' object is not iterable", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:05:06,963", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:05:16,388", "level": "INFO", "module": "task_service", "message": "Obtenidas 0 tareas para usuario <flask_login.mixins.AnonymousUserMixin object at 0x0000018F87BCABA0>", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:07:02,914", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:07:14,465", "level": "INFO", "module": "task_service", "message": "Obtenidas 0 tareas para usuario <flask_login.mixins.AnonymousUserMixin object at 0x0000017833EEABA0>", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:12:36,255", "level": "ERROR", "module": "task_api", "message": "Error en endpoint de creaci\u00f3n: 'AnonymousUserMixin' object has no attribute 'id'", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:14:56,142", "level": "ERROR", "module": "task_api", "message": "Error en endpoint de creaci\u00f3n: 'AnonymousUserMixin' object has no attribute 'id'", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:15:40,273", "level": "ERROR", "module": "task_api", "message": "Error en endpoint de creaci\u00f3n: 'AnonymousUserMixin' object has no attribute 'id'", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:16:37,258", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:16:50,497", "level": "ERROR", "module": "task_service", "message": "Error de base de datos al crear tarea: (pymysql.err.DataError) (1366, \"Incorrect integer value: '<flask_login.mixins.AnonymousUserMixin object at 0x000002C097B5ABA0>' for column 'user_id' at row 1\")\n[SQL: INSERT INTO tasks (user_id, title, description, due_date, is_completed, priority_id, category_id) VALUES (%(user_id)s, %(title)s, %(description)s, %(due_date)s, %(is_completed)s, %(priority_id)s, %(category_id)s)]\n[parameters: {'user_id': <flask_login.mixins.AnonymousUserMixin object at 0x000002C097B5ABA0>, 'title': 'Planificar viaje a Chiriqu\u00ed', 'description': 'Buscar vuelos, hoteles y actividades para el viaje de verano.', 'due_date': datetime.date(2025, 12, 24), 'is_completed': 0, 'priority_id': 1, 'category_id': 3}]\n(Background on this error at: https://sqlalche.me/e/20/9h9h)", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:21:12,776", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:21:27,356", "level": "INFO", "module": "task_service", "message": "Tarea creada exitosamente: Planificar viaje a Chiriqu\u00ed para usuario 3", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:21:47,022", "level": "INFO", "module": "task_service", "message": "Obtenidas 0 tareas para usuario <flask_login.mixins.AnonymousUserMixin object at 0x00000224A13FB8C0>", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:22:18,699", "level": "INFO", "module": "task_service", "message": "Obtenidas 0 tareas para usuario <flask_login.mixins.AnonymousUserMixin object at 0x00000224A17A5A90>", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:25:51,032", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:26:00,951", "level": "ERROR", "module": "task_service", "message": "Error inesperado al obtener las tarea: 'Tasks' object has no attribute 'to_dict'", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:28:26,923", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:28:36,816", "level": "INFO", "module": "task_service", "message": "Obtenidas 1 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:30:33,476", "level": "INFO", "module": "task_service", "message": "Tarea creada exitosamente: Nueva tarea para usuario 3", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:30:37,704", "level": "INFO", "module": "task_service", "message": "Obtenidas 2 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:34:08,342", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:42:49,106", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:43:01,586", "level": "INFO", "module": "task_service", "message": "Obtenidas 2 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:43:23,965", "level": "ERROR", "module": "task_service", "message": "Error inesperado al actualizar la tarea: 'NoneType' object has no attribute 'strip'", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:46:43,078", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:46:51,793", "level": "INFO", "module": "task_service", "message": "Obtenidas 2 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:47:15,781", "level": "INFO", "module": "task_service", "message": "Tarea actualizada exitosamente: Nueva tarea", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:47:15,787", "level": "ERROR", "module": "app", "message": "Exception on /api/tasks/7 [PUT]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:58:09,759", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:58:22,725", "level": "INFO", "module": "task_service", "message": "Obtenidas 2 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 18:58:34,135", "level": "INFO", "module": "task_service", "message": "Tarea actualizada exitosamente: Nueva tarea", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-26 23:59:57,091", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-27 00:00:23,094", "level": "INFO", "module": "task_service", "message": "Obtenidas 2 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-27 00:00:55,165", "level": "ERROR", "module": "app", "message": "Exception on /api/tasks/7 [DELETE]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-27 00:04:00,274", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-27 00:04:11,779", "level": "INFO", "module": "task_service", "message": "Obtenidas 2 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-27 00:04:25,182", "level": "INFO", "module": "task_service", "message": "Tarea 'Nueva tarea' (ID: 7) eliminada por usuario 3", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-27 00:25:37,050", "level": "INFO", "module": "task_service", "message": "Obtenidas 1 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 08:55:14,874", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 08:55:31,568", "level": "INFO", "module": "task_service", "message": "Obtenidas 1 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 09:21:53,575", "level": "ERROR", "module": "app", "message": "Exception on /login [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 10:32:50,088", "level": "ERROR", "module": "app", "message": "Exception on /login [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 10:38:37,696", "level": "ERROR", "module": "app", "message": "Exception on /login [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 10:39:16,856", "level": "ERROR", "module": "app", "message": "Exception on /login [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 10:43:01,323", "level": "ERROR", "module": "app", "message": "Exception on /login [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 10:45:08,306", "level": "ERROR", "module": "app", "message": "Exception on /login [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 10:46:30,029", "level": "ERROR", "module": "app", "message": "Exception on /login [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 10:48:14,118", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 10:48:14,124", "level": "ERROR", "module": "app", "message": "Exception on /login [POST]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 13:14:46,646", "level": "ERROR", "module": "app", "message": "Exception on /register [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 13:21:02,863", "level": "ERROR", "module": "app", "message": "Exception on /login [GET]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 13:23:27,365", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 13:23:27,372", "level": "ERROR", "module": "app", "message": "Exception on /login [POST]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:32:40,120", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:32:40,127", "level": "ERROR", "module": "app", "message": "Exception on /login [POST]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:33:11,025", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:33:11,031", "level": "ERROR", "module": "app", "message": "Exception on /login [POST]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:38:34,201", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:38:34,208", "level": "ERROR", "module": "app", "message": "Exception on /login [POST]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:39:03,671", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:39:03,676", "level": "ERROR", "module": "app", "message": "Exception on /login [POST]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:40:00,782", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:40:17,831", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:41:05,455", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:50:35,251", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:50:35,872", "level": "INFO", "module": "task_service", "message": "Obtenidas 4 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:56:48,663", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:56:49,274", "level": "INFO", "module": "task_service", "message": "Obtenidas 4 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 14:56:58,073", "level": "INFO", "module": "task_service", "message": "Obtenidas 4 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:00:08,707", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:00:09,316", "level": "INFO", "module": "task_service", "message": "Obtenidas 4 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:00:15,702", "level": "ERROR", "module": "app", "message": "Exception on /api/tasks/1/toggle [PATCH]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:00:16,699", "level": "ERROR", "module": "app", "message": "Exception on /api/tasks/1/toggle [PATCH]", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:02:41,703", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:02:42,288", "level": "INFO", "module": "task_service", "message": "Obtenidas 4 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:02:44,047", "level": "INFO", "module": "task_service", "message": "Tarea 1 marcada como pendiente por usuario 1", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:02:47,621", "level": "INFO", "module": "task_service", "message": "Tarea 1 marcada como completada por usuario 1", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:03:15,489", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Aysah07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:03:16,188", "level": "INFO", "module": "task_service", "message": "Obtenidas 0 tareas para usuario 2", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:03:29,453", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:03:29,966", "level": "INFO", "module": "task_service", "message": "Obtenidas 4 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:03:38,800", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Aysah07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:03:39,397", "level": "INFO", "module": "task_service", "message": "Obtenidas 0 tareas para usuario 2", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:06:32,235", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Aysah07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:06:32,847", "level": "INFO", "module": "task_service", "message": "Obtenidas 0 tareas para usuario 2", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:08:30,480", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Aysah07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:08:31,168", "level": "INFO", "module": "task_service", "message": "Obtenidas 0 tareas para usuario 2", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:10:14,007", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:10:14,536", "level": "INFO", "module": "task_service", "message": "Obtenidas 1 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:14:50,747", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:14:51,367", "level": "INFO", "module": "task_service", "message": "Obtenidas 4 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:15:34,550", "level": "INFO", "module": "task_service", "message": "Tarea creada exitosamente: Aprender Angular para usuario 1", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:18:26,189", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:18:26,584", "level": "INFO", "module": "task_service", "message": "Obtenidas 5 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:36:57,911", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Abdiel07", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:36:58,295", "level": "INFO", "module": "task_service", "message": "Obtenidas 1 tareas ", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:37:10,301", "level": "INFO", "module": "task_service", "message": "Tarea actualizada exitosamente: Planificar viaje a Anton", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:37:41,706", "level": "INFO", "module": "auth_services", "message": "Usuario autenticado exitosamente: Mendo1029", "ip": "100.89.177.19"}
+{"timestamp": "2025-07-31 15:37:42,054", "level": "INFO", "module": "task_service", "message": "Obtenidas 5 tareas ", "ip": "100.89.177.19"}

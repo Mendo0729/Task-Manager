@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba SweetAlert2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold text-gray-900 mb-8">Prueba de SweetAlert2</h1>
+        
+                <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">Botones de Prueba</h2>
+            <div class="space-y-4">
+                <button id="testCreate" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Probar Crear Tarea
+                </button>
+                <button id="testEdit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+                    Probar Editar Tarea
+                </button>
+                <button id="testDelete" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                    Probar Eliminar Tarea
+                </button>
+                <button id="testToggle" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">
+                    Probar Cambiar Estado
+                </button>
+                <button id="testLoad" class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
+                    Probar Cargar Tareas
+                </button>
+                <button id="testValidation" class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                    Probar Validación
+                </button>
+                <button id="testConfirmation" class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">
+                    Probar Confirmación
+                </button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        // Funciones de prueba con SweetAlert2
+        function showLoadingModal(title, message) {
+            Swal.fire({
+                title: title,
+                text: message,
+                allowOutsideClick: false,
+                allowEscapeKey: false,
+                showConfirmButton: false,
+                didOpen: () => {
+                    Swal.showLoading();
+                }
+            });
+        }
+
+        function hideLoadingModal() {
+            Swal.close();
+        }
+
+        function showSuccessAfterLoading(actionMessage) {
+            // Primero mostrar "¡Listo!"
+            Swal.fire({
+                icon: 'success',
+                title: '¡Listo!',
+                text: 'Operación completada exitosamente',
+                timer: 1500,
+                timerProgressBar: true,
+                showConfirmButton: false
+            }).then(() => {
+                // Después mostrar el mensaje específico de la acción
+                Swal.fire({
+                    icon: 'success',
+                    title: '¡Éxito!',
+                    text: actionMessage,
+                    timer: 3000,
+                    timerProgressBar: true,
+                    showConfirmButton: false,
+                    toast: true,
+                    position: 'top-end'
+                });
+            });
+        }
+
+        function showError(message) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: message,
+                confirmButtonText: 'Entendido',
+                confirmButtonColor: '#ef4444'
+            });
+        }
+
+        function showValidationError(errors) {
+            const errorList = Array.isArray(errors) ? errors.join('<br>') : errors;
+            Swal.fire({
+                icon: 'warning',
+                title: 'Validación',
+                html: errorList,
+                confirmButtonText: 'Entendido',
+                confirmButtonColor: '#f59e0b'
+            });
+        }
+
+        async function showConfirmation(title, text) {
+            const result = await Swal.fire({
+                title: title,
+                text: text,
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Sí, continuar',
+                cancelButtonText: 'Cancelar',
+                confirmButtonColor: '#ef4444',
+                cancelButtonColor: '#6b7280'
+            });
+            return result.isConfirmed;
+        }
+
+        // Simular operaciones asíncronas
+        function simulateAsyncOperation(duration = 2000) {
+            return new Promise(resolve => setTimeout(resolve, duration));
+        }
+
+        // Event listeners para pruebas
+        document.getElementById('testCreate').addEventListener('click', async () => {
+            try {
+                showLoadingModal('Creando tarea...', 'Guardando tu nueva tarea, por favor espera.');
+                await simulateAsyncOperation(1000); // Simular operación rápida
+                hideLoadingModal();
+                showSuccessAfterLoading('Tarea creada exitosamente!');
+            } catch (error) {
+                hideLoadingModal();
+                showError('Error al crear la tarea');
+            }
+        });
+
+        document.getElementById('testEdit').addEventListener('click', async () => {
+            try {
+                showLoadingModal('Actualizando tarea...', 'Guardando los cambios, por favor espera.');
+                await simulateAsyncOperation(1500); // Simular operación media
+                hideLoadingModal();
+                showSuccessAfterLoading('Tarea actualizada exitosamente!');
+            } catch (error) {
+                hideLoadingModal();
+                showError('Error al actualizar la tarea');
+            }
+        });
+
+        document.getElementById('testDelete').addEventListener('click', async () => {
+            const confirmed = await showConfirmation(
+                '¿Eliminar tarea?',
+                'Esta acción no se puede deshacer. ¿Estás seguro de que quieres eliminar esta tarea?'
+            );
+            
+            if (confirmed) {
+                try {
+                    showLoadingModal('Eliminando tarea...', 'Eliminando la tarea, por favor espera.');
+                    await simulateAsyncOperation(800); // Simular operación rápida
+                    hideLoadingModal();
+                    showSuccessAfterLoading('Tarea eliminada exitosamente!');
+                } catch (error) {
+                    hideLoadingModal();
+                    showError('Error al eliminar la tarea');
+                }
+            }
+        });
+
+        document.getElementById('testToggle').addEventListener('click', async () => {
+            try {
+                showLoadingModal('Cambiando estado...', 'Actualizando el estado de la tarea, por favor espera.');
+                await simulateAsyncOperation(1200); // Simular operación media
+                hideLoadingModal();
+                showSuccessAfterLoading('Estado cambiado exitosamente!');
+            } catch (error) {
+                hideLoadingModal();
+                showError('Error al cambiar el estado');
+            }
+        });
+
+        document.getElementById('testLoad').addEventListener('click', async () => {
+            try {
+                showLoadingModal('Cargando tareas...', 'Obteniendo tus tareas, por favor espera.');
+                await simulateAsyncOperation(3000); // Simular operación lenta
+                hideLoadingModal();
+                showSuccessAfterLoading('Tareas cargadas exitosamente!');
+            } catch (error) {
+                hideLoadingModal();
+                showError('Error al cargar las tareas');
+            }
+        });
+
+        document.getElementById('testValidation').addEventListener('click', () => {
+            const errors = [
+                'El título es obligatorio',
+                'La prioridad es requerida',
+                'La categoría es necesaria'
+            ];
+            showValidationError(errors);
+        });
+
+        document.getElementById('testConfirmation').addEventListener('click', async () => {
+            const confirmed = await showConfirmation(
+                '¿Continuar?',
+                '¿Estás seguro de que quieres realizar esta acción?'
+            );
+            
+            if (confirmed) {
+                Swal.fire({
+                    icon: 'success',
+                    title: '¡Confirmado!',
+                    text: 'Has confirmado la acción',
+                    timer: 2000,
+                    timerProgressBar: true,
+                    showConfirmButton: false
+                });
+            }
+        });
+    </script>
+</body>
+</html> 
